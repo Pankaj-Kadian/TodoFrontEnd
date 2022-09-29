@@ -66,3 +66,15 @@ footer {
     width: 50%;
 
 }
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.feature img {
+    max-height: 26rem;
+    max-width: 22rem;
+    margin-top: 2rem;
+}
