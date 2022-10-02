@@ -1,6 +1,9 @@
 import { Features } from '../data.js'
 
 const HomeScreen = {
+    after_render: () => {
+
+    },
     render: () => {
         return `
        <ul class = "features"> 
@@ -8,11 +11,11 @@ const HomeScreen = {
             ${Features.map((feature) => `
             <li>
                 <div class="feature">
-                    <a href="/feature/${feature._id}">
+                    <a href="/#/${feature.id}">
                         <img src="${feature.image}" alt="${feature.name}" />
                     </a>
                     <div class="feature-name">
-                        <a href="/feature/${feature._id}">
+                        <a href="/#/${feature.id}"">
                             ${feature.name}
                         </a>
                     </div>

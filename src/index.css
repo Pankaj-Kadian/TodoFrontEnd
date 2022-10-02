@@ -10,7 +10,6 @@ html {
 body {
     height: 100vh;
     font: 1.6rem Helvetica, Arial;
-    margin: 0;
 }
 
 .grid-container {
@@ -38,6 +37,7 @@ header a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
+    ;
 }
 
 header a:hover {
@@ -73,8 +73,89 @@ footer {
     flex-direction: column;
 }
 
+.features li {
+    list-style-type: none;
+}
+
+.feature-name a {
+    text-align: center;
+    font-weight: bold;
+    color: lightcoral;
+}
+
 .feature img {
     max-height: 26rem;
     max-width: 22rem;
     margin-top: 2rem;
+}
+
+table,
+thead th,
+td {
+    border: 1px solid black;
+    color: black;
+    text-decoration: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 14px;
+}
+
+#schema-add {
+    padding: 1rem;
+    margin: 2rem;
+    color: black;
+}
+
+.table {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.schema-table {
+    margin-bottom: 4rem;
+}
+
+#schema-add-meta {
+    margin: 1rem;
+}
+
+#schema-add-details {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#availabe-schema {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.add-test-details {
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+}
+
+.test-subject-details {
+    margin: 0.5rem;
+}
+
+#add-more-test-button {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#test-submit-details {
+    margin: 2rem;
+}
+
+#test-table-table-div {
+    display: flex;
+    justify-content: center;
+    text-align-last: center;
 }
