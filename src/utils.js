@@ -1,4 +1,3 @@
-import { Schemas } from "./schema.js";
 
 export const addSchemasToLocalStorage = (testSchemas) => {
     localStorage.setItem("testSchemas", JSON.stringify(testSchemas));

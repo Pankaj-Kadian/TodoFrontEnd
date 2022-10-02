@@ -1,7 +1,9 @@
-import { TestScore } from "../testdata.js";
-import { findIdInTestSchemas, parseRequestUrl, rerender } from "../utils.js";
+import { addTestsToLocalStorage, findIdInTestSchemas, getSchemasToLocalStorage, parseRequestUrl, rerender } from "../utils.js";
 
-const testScore = TestScore;
+let testScore = getSchemasToLocalStorage();
+if (!testScore) {
+    testScore = []
+}
 
 function findTestSchema() {
     const request = parseRequestUrl();
@@ -60,6 +62,7 @@ function saveNewTest(props) {
         totalMarks: totalMarks
     }
     testScore.push(newTest);
+    addTestsToLocalStorage(testScore);
     rerender(TestScreen);
 }
 

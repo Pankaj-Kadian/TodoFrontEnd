@@ -1,4 +1,3 @@
-import { Schemas } from "../schema.js";
 import { addSchemasToLocalStorage, getSchemasToLocalStorage, rerender } from "../utils.js";
 
 let testSchemas = getSchemasToLocalStorage();
