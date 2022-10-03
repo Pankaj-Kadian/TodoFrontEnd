@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "main": "index.js",
     "scripts": {
         "lint": "eslint src",
         "start": "run-p start:**",
