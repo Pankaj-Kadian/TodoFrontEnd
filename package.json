@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.1.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "netlify-cli": "^2.37.0"
+  }
 }

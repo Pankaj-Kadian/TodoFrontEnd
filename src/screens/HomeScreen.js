@@ -15,7 +15,7 @@ const HomeScreen = {
                         <img src="${feature.image}" alt="${feature.name}" />
                     </a>
                     <div class="feature-name">
-                        <a href="/#/${feature.id}"">
+                        <a href="/#/${feature.id}">
                             ${feature.name}
                         </a>
                     </div>
