@@ -1,19 +1,17 @@
 {
-  "name": "todoappfrontend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "live-server src --verbose",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "live-server": "^1.1.0"
-  },
-  "type": "module",
-  "devDependencies": {
-    "netlify-cli": "^2.37.0"
-  }
+    "name": "todoappfrontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server src --verbose",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "live-server": "^1.1.0"
+    },
+    "type": "module",
+    "devDependencies": {}
 }
