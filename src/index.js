@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen.js';
 import SchemaScreen from './screens/SchemaScreen.js';
 import TestScreen from './screens/TestScreen.js';
 import { parseRequestUrl } from './utils.js';
+import './style.css';
 const routes = {
     "/": HomeScreen,
     "/schema": SchemaScreen,
